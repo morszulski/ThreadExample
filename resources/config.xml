@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<threadParamsList>
+    <maxNumberOfThreads>2</maxNumberOfThreads>
+    <Thread name="1I1I1I1I">
+        <timeToRun>1400</timeToRun>
+    </Thread>
+    <Thread name="2Z2Z2Z2z">
+        <timeToRun>2100</timeToRun>
+    </Thread>
+    <Thread name="3E3E3E3e">
+        <timeToRun>1730</timeToRun>
+    </Thread>
+    <Thread name="4U4UUuuu4">
+    	<timeToRun>500</timeToRun></Thread>
+    <Thread name="5ssssSSS5">
+    	<timeToRun>800</timeToRun></Thread>
+    <Thread name="6GGG6666">
+    	<timeToRun>666</timeToRun></Thread>
+    <Thread name="7777hhdhdggf7745">
+    	<timeToRun>1077</timeToRun></Thread>
+</threadParamsList>
