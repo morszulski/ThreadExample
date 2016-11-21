@@ -20,9 +20,10 @@ public class ThreadExample {
 		}
 
 		try {
-			Thread.sleep(2000L);
+			Thread.sleep(5000L);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
+
 		}
 
 		ExecutorService executor = Executors.newFixedThreadPool(threadList.getMaxNumberOfThreads());
