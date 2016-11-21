@@ -20,7 +20,7 @@ public class ThreadExample {
 		}
 
 		try {
-			Thread.sleep(5000L);
+			Thread.sleep(4000L);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 
