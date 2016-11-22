@@ -1,10 +1,8 @@
 /bin/
-.settings
 /target/
+/log/
+.settings
 .classpath
 .project
+*.class
 
-<<<<<<< HEAD
-/bin/ 
-=======
->>>>>>> branch 'master' of https://github.com/morszulski/ThreadRepository.git
