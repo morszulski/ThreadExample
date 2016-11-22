@@ -6,8 +6,6 @@ import java.util.concurrent.Executors;
 import config.ThreadParams;
 import config.ThreadParamsList;
 
-// TODO log4j
-
 public class ThreadExample {
 
 	final static String configFileName = "config.xml";
