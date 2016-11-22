@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import config.ThreadParams;
 import config.ThreadParamsList;
 
-//2DO log4j
+// TODO log4j
 
 public class ThreadExample {
 
