@@ -9,7 +9,6 @@ import config.ThreadParamsList;
 public class ThreadExample {
 
 	final static String configFileName = "config.xml";
-	final static String envExternalConfigFilePath = "EA_HTML_CFG";
 
 	public static void main(String[] args) {
 
