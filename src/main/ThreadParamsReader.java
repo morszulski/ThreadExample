@@ -2,9 +2,9 @@ package main;
 
 import java.io.InputStream;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.Unmarshaller;
 
 import config.ThreadParamsList;
 
@@ -24,7 +24,7 @@ public class ThreadParamsReader {
 			jaxbContext = JAXBContext.newInstance(ThreadParamsList.class);
 			Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
 			InputStream is = ThreadExample.class.getClassLoader().getResourceAsStream(this.fileName);
-			threadList = (ThreadParamsList) unmarshaller.unmarshal(is);		
+			threadList = (ThreadParamsList) unmarshaller.unmarshal(is);
 		} catch (JAXBException e) {
 			e.printStackTrace();
 		}
